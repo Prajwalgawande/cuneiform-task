@@ -1,0 +1,71 @@
+.latest-top {
+    padding: 0 10vw;
+    display: flex;
+    margin: 0 10px;
+}
+
+.tabs {
+    display: flex;
+    margin: 0 20px;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 5px 20px;
+    border: 1px solid gray;
+    margin: 0 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: greenyellow;
+    border: 1px solid;
+    background: linear-gradient(92.98deg, #a3a1a1 0%, rgba(25, 25, 25, 0.2) 100%);
+
+
+}
+
+.latest-title {
+    margin: 5px 0;
+    font-size: 20px;
+    color: greenyellow;
+    font-weight: 700;
+}
+
+.active {
+    color: black;
+    background: none;
+    background-color: greenyellow;
+}
+.latest-boxes{
+    padding: 20px 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.latest-box{
+    width: 250px;
+    margin: 2vh 2vw;
+    color: #fff;
+}
+.latest-box img{
+    width: 20vw;
+}
+.latest-box div{
+    padding: 2px 0;
+}
+.buttons-episodes i{
+    font-size: 2rem;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.fa-share-alt{
+    margin-left: 10px;
+}
+.load-more{
+    text-align: center;
+}
+.load-more a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

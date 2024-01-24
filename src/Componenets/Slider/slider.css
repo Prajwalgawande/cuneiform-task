@@ -1,0 +1,49 @@
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+  }
+  
+  .slide {
+    width: 300px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .active-slider {
+    transform: translateX(-100%);
+    background-color: #040C18;
+    opacity: 0.5;
+    color: #ffff;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  button:first-child {
+    left: 0;
+  }
+  
+  button:last-child {
+    right: 0;
+  }
+
+  .icon-name{
+    display: flex;
+    align-items: center;
+  }
+  .icon-name p{
+    padding: 0 15px;
+    color: #ffff;
+  }

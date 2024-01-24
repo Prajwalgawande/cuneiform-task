@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(235.64deg, #064BB5 -1.78%, rgba(6, 18, 36, 0.9) 60.42%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-seperator{
+    width: 96vw;
+    height: 1px;
+    margin: 10vh 2vw;
+    background-color: #064BB5;
+}
+
+.title-box{
+    padding: 0 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-description{
+    color: #fff;
+    font-size: 17px;
+}
+.main-title{
+    color: greenyellow;
+    font-size: 3rem;
+    width: 100%;
+}

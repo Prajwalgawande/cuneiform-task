@@ -1,0 +1,11 @@
+.topsection{
+    background: url("../../images/banner-background.png");
+    width: 100vw;
+    display: block;
+    background-size: cover;
+    height: 81vh;
+}
+.topsection img{
+    width: 76vw;
+    height: 86vh;
+}

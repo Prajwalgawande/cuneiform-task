@@ -1,0 +1,21 @@
+.feature-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10vh 10vw;
+
+    justify-content: center;
+}
+.feature-box{
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    margin: 10px 20px;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+.feature-title{
+    margin: 20px 0;
+    font-size: 19px;
+    font-weight: 700;
+}
