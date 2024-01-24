@@ -1,6 +1,6 @@
 import React from 'react'
 import './topsection.css'
-import banner from '../../images/banner.png'
+import banner from '../../images/Banner.png'
 
 const TopSection = () => {
   return (
